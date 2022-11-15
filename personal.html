@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pagina personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Los mejores productos para gatos</h1>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>productos</th>
+                <th>precios</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>sabrositos</td>
+                <td>300$ 1kg</td>
+            </tr>
+            <tr>
+                <td>catchow</td>
+                <td>310$ 1kg</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>total 610$</td>
+            </tr>
+        </tfoot>
+    </table>
+    <div class="productos">
+        <p>En esta seccion vas a poder encontrar los siguientes productos:</p>
+        <ul>
+            <li>Alimentos balanceados</li>
+            <li>Juguetes para tus gatos</li>
+            <li>Catnip</li>
+        </ul>
+        <div class="imagenes" >
+            <img src="img/sabrositos.png" style="width: 200px;" alt="sabrositos" />
+            <img src="img/juguete.opdownload" style="width: 200px;" alt="juguetes" />
+            <img src="img/catnip.png" style="width: 200px;" alt="catnip" />
+        </div>
+            <hr>
+            <h2>En esta seccion vas a poder pedir un pedido personalizado</h2>
+            <div class="formulario">
+                
+            <form action="/formulario" method="POST" class="contenedor-form">
+                <div class="filas">
+                    <div class="fila">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre"  type="text" placeholder="tu nombre" name="nombre" />
+                        <br>
+                    </div>
+                    <div class="fila">                    
+                        <label for="apellido">Apellido</label>
+                        <input id="apellido"  type="text" placeholder="tu appelido" name="apellido" />
+                        <br>
+                    </div>
+                    <div class="fila">                    
+                        <label for="documento">DNI</label>
+                        <input id="documento"  type="text" placeholder="tu DNI" name="documento" />
+                        <br>
+                    </div> 
+                    <div class="fila">
+                        <label for="direccion">Direccion</label>
+                        <input id="direccion"  type="text" placeholder="direccion" name="direccion" />
+                        <br>    
+                    </div>
+                </div>
+                <textarea cols="50" rows="10" id="comentario" name="comentario" placeholder="ingrese pedido personalizado"></textarea>
+                <br>
+                <button type="sumit">enviar</button>    
+            </form>
+        </div>
+    </div>
+</body>
+<footer>
+    <a href="mailto:cristianrodriguez12510@gmail.com">Contacto</a>
+    <a href="#titulo">ir arriba</a>
+</footer>
+</html>

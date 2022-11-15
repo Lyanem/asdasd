@@ -1,0 +1,178 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: burlywood;
+}
+
+header {
+    background-color: rgb(156, 50, 50);
+    color: white;
+    padding: 2rem 3rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+table {
+    background-color: white;
+    width: 70%;
+    border-collapse: collapse;
+    margin: 15px auto;
+}
+
+th, td {
+    border: solid 1px #eee;
+    padding: 5px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+div p {
+    padding: 20px 50px;
+    background-color: brown;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px auto;
+    width: 700px;
+    color: white;
+}
+
+ul {
+    text-align: center;
+    background-color: brown;
+    border: solid 1px black;
+    margin: 20px 400px;
+    padding: 5px 10px;
+    list-style-position: inside;
+    color: white;
+    overflow: hidden;
+}
+
+.imagenes {
+    transition: all 0.3s ease;
+    width: 200px;
+    background-color: brown;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+.imagenes:hover {
+    box-shadow: 0 0.5rem 1rem rgba(247, 5, 5, 0.918);
+    scale: 1.02;
+}
+.imagenes:active{
+    scale: 0.98;
+}
+
+label:hover, button:hover {
+    box-shadow: 0 0.5rem 1rem rgba(247, 5, 5, 0.918);
+    scale: 1.02;
+}
+label:active, button:hover{
+    scale: 0.98;
+}
+
+h2 {
+    padding: 20px 50px;
+    background-color: brown;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px auto;
+    width: 700px;
+    color: white;
+}
+
+.formulario {
+    padding: 50px 0;
+    text-align: center;
+    background-color: brown;
+    margin: 0 280px;
+}
+
+label {
+    background-color: black;
+    border: solid 1px white;
+    color: white;
+    height: 20px;
+    padding: 0 auto;
+}
+
+input {
+    border-radius: 1px;
+    /* border-collapse: collapse; */
+    padding: 5px;
+
+}
+
+div  {
+    padding: 2px 0;
+    margin: 5px 20px;
+}   
+
+textarea {
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    padding: 30px;
+    background-color: black;
+    text-align: right;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+.fila{
+    display: grid;
+    /* justify-content: space-around; */
+    gap: 3px;
+    align-items: center;
+    width: 80%;
+}
+.filas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+.contenedor-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    flex-direction: column;
+
+}
